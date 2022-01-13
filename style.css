@@ -1,0 +1,80 @@
+html {
+    --headerBgColor: #FFFBE7;
+    --containerBgColor: #FFFFFF;
+    --arrowDownColor: #FF914C;
+    --color: #707070;
+    --h2Color: #4b4a4a;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Sora', sans-serif;
+}
+
+/* mobile frst max 599px */
+
+.header{
+    background-color: var(--headerBgColor);
+}
+
+.menu{
+    text-align: right;
+    padding: 10px 20px;
+}
+
+.eshop-a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--color);
+}
+.header-images{
+    text-align: center;
+}
+
+.logo{
+    width: 80%;
+    margin: 50px 0;
+}
+
+.arrow_down{
+    width: 20%;
+    padding-bottom: 20px;
+}
+
+.container{
+    padding: 20px 10px;
+    color: var(--color)
+}
+
+h2{
+    color: var(--h2Color);
+    font-size: 20px;
+}
+
+.about-p, .contact-p{
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.contact{
+    margin: 25px 0;
+}
+
+.footer{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer-a{
+    text-decoration: none;
+    color: rgb(216, 135, 149);
+}
+
+/* 450px + */
+
